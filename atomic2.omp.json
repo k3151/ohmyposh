@@ -5,13 +5,16 @@
       "alignment": "left",
       "segments": [
         {
-  "type": "session",
-  "foreground": "#ffffff",
+  "type": "text",
+  "style": "plain",
+  "leading_diamond": "\u256d\u2500\ue0b6",
+  "style": "diamond",
+  "template": "\uf120 {{ .Name }} ",
   "background": "#0077c2",
-  "style": "powerline",
+  "foreground": "#ffffff",
+  "template": "\udb81\udd48 myhost ",  // Любой текст вместо хоста
   "properties": {
-    "prefix": "",
-    "display_host": true    // Показать только хост
+    "prefix": "🖥️"  // Опционально: иконка перед текстом
   }
 },
         {
